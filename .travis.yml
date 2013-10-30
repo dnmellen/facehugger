@@ -10,7 +10,8 @@ python:
 # Here we install the ubuntu dependencies with apt-get.
 before_install:
   - sudo apt-get update
-  - sudo apt-get install python-dev libsdl-image1.2-dev libsdl-mixer1.2-dev libsdl-ttf2.0-dev libsdl1.2-dev libsmpeg-dev python-numpy libportmidi-dev ffmpeg libswscale-dev libavformat-dev libavcodec-dev libjpeg-dev libtiff4-dev libx11-6 libX11-dev xfonts-base xfonts-100dpi xfonts-75dpi xfonts-cyrillic ipython python-opencv python-scipy python-numpy python-pygame
+  - sudo apt-get install python-numpy python-nose python-imaging python-scipy python-pygame
+  - sudo apt-get install libcv2.3 libcvaux2.3 libhighgui2.3 python-opencv libcv-dev libcvaux-dev libhighgui-dev
 
 # command to install dependencies, e.g. pip install -r requirements.txt --use-mirrors
 install:
