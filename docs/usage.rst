@@ -4,4 +4,14 @@ Usage
 
 To use facehugger in a project::
 
-	import facehugger
+	from facehugger import get_faces
+
+	faces = get_faces('/some/path/to_image.jpg')
+
+
+To use facehugger from command line::
+
+.. code-block :: bash
+
+    $ sudo pip install facehugger
+    $ facehugger -i /path/to/image_with_faces.jpg -o /path/to/dir_to_save_faces
