@@ -23,7 +23,12 @@ Extracts faces from an image
 Requirements
 ------------
 
-* SimpleCV
+* `SimpleCV <https://github.com/sightmachine/simplecv>`_
+
+.. code-block :: bash
+
+    # System requirements for Ubuntu
+    sudo apt-get install ipython python-opencv python-scipy python-numpy python-pygame python-setuptools python-pip
 
 
 Features
