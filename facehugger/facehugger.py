@@ -48,5 +48,5 @@ def main(args=None):
     for n, face in enumerate(faces):
         face.save(os.path.join(options['output_dir'], 'face_{}.jpg'.format(n)))
 
-if __name__ == '__main__':
+if __name__ == '__main__':  # pragma: no cover
     main()
