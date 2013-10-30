@@ -28,3 +28,12 @@ Features
 
 * Extracts faces and saves the cropped images to a folder
 * You can use it in your app as a library
+
+
+Quickstart
+----------
+
+.. code-block :: bash
+
+    $ sudo pip install facehugger
+    $ facehugger -i /path/to/image_with_faces.jpg -o /path/to/dir_to_save_faces

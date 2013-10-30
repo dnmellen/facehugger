@@ -3,3 +3,4 @@ include CONTRIBUTING.rst
 include HISTORY.rst
 include LICENSE
 include README.rst
+include facehugger/haarcascade_frontalface_alt.xml
