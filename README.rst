@@ -48,3 +48,17 @@ Quickstart
 
     $ sudo pip install facehugger
     $ facehugger -i /path/to/image_with_faces.jpg -o /path/to/dir_to_save_faces
+
+Why this name?
+--------------
+
+.. image:: http://img6.joyreactor.com/pics/post/gif-Alien-Facehugger-618166.gif
+        :target: http://joyreactor.com/tag/Facehugger
+
+
+Did you like it?
+---------------
+.. image:: https://rawgithub.com/twolfson/gittip-badge/0.1.0/dist/gittip.png
+    :target: https://www.gittip.com/dnmellen/
+    :alt: gittip
+
