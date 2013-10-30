@@ -4,7 +4,6 @@ language: python
 
 python:
   - "2.7"
-  - "pypy"
 
 # Here we install the ubuntu dependencies with apt-get.
 before_install:

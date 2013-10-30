@@ -22,9 +22,9 @@ class TestFacehugger(unittest.TestCase):
         self.output_dir = tempfile.mkdtemp()
 
     def test_faces_in_output_dir(self):
-        input_image = os.path.join(os.path.dirname(__file__), 'fixtures/music-166646_1280.jpg')
+        input_image = os.path.join(os.path.dirname(__file__), 'fixtures/girl-and-dog_w725_h544.jpg')
         facehugger.main("-i {} -o {}".format(input_image, self.output_dir).split())
-        self.assertEqual(len(os.listdir(self.output_dir)), 8)
+        self.assertEqual(len(os.listdir(self.output_dir)), 1)
 
     def tearDown(self):
         shutil.rmtree(self.output_dir)
