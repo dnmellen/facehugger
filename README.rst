@@ -8,6 +8,9 @@ facehugger
 .. image:: https://travis-ci.org/dnmellen/facehugger.png?branch=master
         :target: https://travis-ci.org/dnmellen/facehugger
 
+.. image:: https://coveralls.io/repos/dnmellen/facehugger/badge.png
+        :target: https://coveralls.io/r/dnmellen/facehugger
+
 .. image:: https://pypip.in/d/facehugger/badge.png
         :target: https://crate.io/packages/facehugger?version=latest
 
