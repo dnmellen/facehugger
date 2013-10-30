@@ -30,7 +30,7 @@ def get_faces(image_path, api_mode=False):
         return [face.crop() for face in faces]
 
 
-def main():
+def main(args=None):
     """
     Execution as command
     """
@@ -39,7 +39,7 @@ def main():
     parser.add_argument('-i', '--image-path', help='Image path', required=True)
     parser.add_argument('-o', '--output-dir', help='Output directory', required=True)
     parser.add_argument('-v', '--verbose', help='Verbose', required=False, action='store_true')
-    options = vars(parser.parse_args())
+    options = vars(parser.parse_args(args))
 
     faces = get_faces(options['image_path'])
 
