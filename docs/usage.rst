@@ -9,7 +9,7 @@ To use facehugger in a project::
 	faces = get_faces('/some/path/to_image.jpg')
 
 
-To use facehugger from command line::
+To use facehugger from command line:
 
 .. code-block :: bash
 
