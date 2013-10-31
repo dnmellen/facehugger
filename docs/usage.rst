@@ -20,7 +20,7 @@ To use facehugger from command line:
 Rescaling resulting face crops
 -------------------------------
 
-.. versionadded:: 0.2.1
+.. versionadded:: 0.1.5
     Added `--rescale-face-crop` parameter that receives an integer representing percentage to scale up the crop
 
 .. code-block:: bash
