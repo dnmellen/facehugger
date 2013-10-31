@@ -13,5 +13,5 @@ def scale_bounding_box(box, percent=0):
 		offset_x = 0.01 * percent * w
 		offset_y = 0.01 * percent * h
 		return [(x - offset_x, y - offset_y), (x + w + offset_x, y + h + offset_y)]
-	else:
+	else:  # pragma: no cover
 		return box

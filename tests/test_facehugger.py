@@ -26,6 +26,10 @@ class TestFacehugger(unittest.TestCase):
         facehugger.main("-i {} -o {} -v".format(self.input_image, self.output_dir).split())
         self.assertEqual(len(os.listdir(self.output_dir)), 1)
 
+    def test_faces_in_output_dir_rescaled(self):
+        facehugger.main("-i {} -o {} --rescale-face-crop 20".format(self.input_image, self.output_dir).split())
+        self.assertEqual(len(os.listdir(self.output_dir)), 1)
+
     def test_get_faces(self):
         faces = facehugger.get_faces(self.input_image, api_mode=True)
         self.assertEqual(len(faces), 1)

@@ -15,3 +15,14 @@ To use facehugger from command line:
 
     $ sudo pip install facehugger
     $ facehugger -i /path/to/image_with_faces.jpg -o /path/to/dir_to_save_faces
+
+
+Rescaling resulting face crops
+-------------------------------
+
+.. versionadded:: 0.2.1
+    Added `--rescale-face-crop` parameter that receives an integer representing percentage to scale up the crop
+
+.. code-block:: bash
+
+	$ facehugger -i /path/to/image_with_faces.jpg -o /path/to/dir_to_save_faces --rescale-face-crop 20
