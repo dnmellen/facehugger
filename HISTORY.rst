@@ -12,3 +12,8 @@ History
 ++++++++++++++++++
 
 * First working release.
+
+0.1.4 (2013-10-30)
+++++++++++++++++++
+
+* Updated docs.
