@@ -62,3 +62,9 @@ Did you like it?
     :target: https://www.gittip.com/dnmellen/
     :alt: gittip
 
+
+
+.. image:: https://d2weczhvl823v0.cloudfront.net/dnmellen/facehugger/trend.png
+   :alt: Bitdeli badge
+   :target: https://bitdeli.com/free
+
