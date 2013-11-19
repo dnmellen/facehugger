@@ -14,9 +14,6 @@ facehugger
 .. image:: https://pypip.in/d/facehugger/badge.png
         :target: https://crate.io/packages/facehugger?version=latest
 
-.. image:: https://coviolations.io/projects/dnmellen/facehugger/badge/?
-        :target: https://coviolations.io/#/project/dnmellen/facehugger
-
 
 Extracts faces from an image
 
