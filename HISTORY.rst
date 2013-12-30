@@ -17,3 +17,8 @@ History
 ++++++++++++++++++
 
 * Updated docs.
+
+0.1.6 (2013-12-30)
+++++++++++++++++++
+
+* Uses a better haarcascade filter.
