@@ -21,7 +21,7 @@ Extracts faces from an image
 * Documentation: http://facehugger.rtfd.org.
 
 .. image:: https://raw.github.com/dnmellen/facehugger/master/demo.jpg
-        :target: http://commons.wikimedia.org/wiki/File:Christina_Hendricks_(8050119303).jpg
+
 
 Requirements
 ------------
