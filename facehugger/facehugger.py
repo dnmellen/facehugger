@@ -9,7 +9,7 @@ from SimpleCV import Image, HaarCascade
 from utils import scale_bounding_box
 
 # HaarCascade to segment faces
-segment_face = HaarCascade(os.path.join(os.path.abspath(os.path.dirname(__file__)), "haarcascade_frontalface_alt.xml"))
+segment_face = HaarCascade(os.path.join(os.path.abspath(os.path.dirname(__file__)), "haarcascade_frontalface_alt2.xml"))
 
 
 def get_faces(image_path, api_mode=False, rescale_face_crop=0):

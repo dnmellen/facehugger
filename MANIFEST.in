@@ -4,3 +4,6 @@ include HISTORY.rst
 include LICENSE
 include README.rst
 include facehugger/haarcascade_frontalface_alt.xml
+include facehugger/haarcascade_frontalface_alt2.xml
+include facehugger/haarcascade_frontalface_alt_tree.xml
+include facehugger/haarcascade_frontalface_alt_default.xml
